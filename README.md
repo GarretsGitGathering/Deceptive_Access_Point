@@ -1,8 +1,6 @@
 ## DISCLAIMER
 
-All of the research and code is intended for research and learning purposes only. I do not condone the use of this for any illegal activity.
-
-Also **PLEASE DON'T BE ALARMED** that I used my college as an example of how one could capture credentials, I did not and will not attempt to steal any private information from any of my classmates. My only intention was to build a function fake accesspoint model.
+All of the research and code is intended for research and learning purposes only. I do not condone the use of this for any illegal activity. Stealing without permission is wrong, and is almost definitely illegal when it comes to stealing login credentials.
 
 Now, with that out of the way let's get down to business...
 
