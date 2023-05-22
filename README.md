@@ -31,11 +31,6 @@ and
 sudo ./ap.sh
 ```
 
-OpenNDS documentation: 
-- https://opennds.readthedocs.io/en/stable/index.html
-
-Note: there are a lot of tutorials for creating captive portal pages using nodogsplash. Unfortunately, however, as the time of me making this nodogsplash uncommited FAS support, making OpenNDS (nodogsplash's supposedly more complicated older brother) the most similar alternative.
-
 # PHP server for Captive Portal
 
 The captive portal page is going to be hosted locally using php because it's incredibly easy to set up (see start_server.sh). Openssl is also needed for ssl support with certain fas parts of OpenNDS, the application of that here doesn't matter too much, but just to avoid any errors it's probably better to install it. 
@@ -57,7 +52,9 @@ More information on how the server interacts with OpenNDS (the passing of creden
 
 # OpenNDS Configuration
 
-The OpenNDS documentation has great examples that allow one to easily adapt their own implementation of a of a captive portal. Making it easier to adapt custom html to the captive portal page, in the attempt at fooling a person to login with their credentials.
+The [OpenNDS documentation](https://opennds.readthedocs.io/en/stable/index.html) has great examples that allow one to easily adapt their own implementation of a of a captive portal. Making it easier to adapt custom html to the captive portal page, in the attempt at fooling a person to login with their credentials.
+
+**Note**: there are a lot of tutorials for creating captive portal pages using nodogsplash. Unfortunately, however, as the time of me making this nodogsplash uncommited FAS support, making OpenNDS (nodogsplash's supposedly more complicated older brother) the most similar alternative.
 
 See **Configuration Options** and **Using the FAS Example Scripts** in the OpenNDS documentation for settings to add in the /etc/opennds/opennds.conf file (or just look below).
 
